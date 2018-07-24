@@ -20,15 +20,16 @@
 #include "../kdpee/kdpee.h"
 #include <math.h>
 //#include <stdbool.h>
-typedef int bool;
+// typedef int bool;
 
+/*
 #ifdef _MSC_VER
 const double loge_2 =  0.693147181; //natural logarithm of 2
 // Calculates log2 of a number. You need this function in case of using Microsoft (Microsoft does not provide log2...).
 double log2( double n ){
     return log(n) / loge_2; // log(n)/log(2) is log2(n)
 }
-#endif
+#endif*/
 
 #ifndef false
 	#define false 0
